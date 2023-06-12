@@ -25,7 +25,7 @@ Criminal Image Recognition is a Python-based application that performs facial re
 
 1. Clone the repository to your local machine:
    ```
-   git clone [https://github.com/hope404alive/criminal-image-recognition.git](https://github.com/hope404alive/Crime-Detection.git)
+   git clone https://github.com/hope404alive/-CriminalRecogition-UsingFAceDetection.git
    ```
 
 2. Install the required dependencies:
