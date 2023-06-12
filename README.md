@@ -16,6 +16,7 @@ Criminal Image Recognition is a Python-based application that performs facial re
   - [1. Open Database](#1-open-database)
   - [2. Upload Image](#2-upload-image)
   - [3. Face Recognition](#3-face-recognition)
+  - [4. Database Entry](#4-Database Entry)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -24,7 +25,7 @@ Criminal Image Recognition is a Python-based application that performs facial re
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-username/criminal-image-recognition.git
+   git clone [https://github.com/your-username/criminal-image-recognition.git](https://github.com/hope404alive/Crime-Detection.git)
    ```
 
 2. Install the required dependencies:
@@ -34,29 +35,34 @@ Criminal Image Recognition is a Python-based application that performs facial re
 
 ## Usage
 
-The application provides feature for Criminal Infromation Extraction through Face Detection.
+The application provides feature for** **Criminal Information Extraction** through Face Detection**
+
+![image](https://github.com/hope404alive/Crime-Detection/assets/94454699/4598401c-916c-400d-98c8-3578f0b1167f)
+
 
 ### 1. Open Database
 
-The "Open Database" functionality allows you to open the criminal database stored in the "Book1.csv" file. This file contains information about known criminals, including their names and corresponding face encodings. Clicking the "Open Database" button will open the database in a separate window, allowing you to view and modify the criminal records if needed.
+ It allows you to open the criminal database stored in the "Book1.csv" file. This file contains information about known criminals, including their names and corresponding face encodings. Clicking the "Open Database" button will open the database in a separate window, allowing you to view and modify the criminal records if needed.
 
 ### 2. Upload Image
 
-The "Upload Image" functionality enables you to upload a picture of a criminal to the application. Follow these steps to upload an image:
-
-1. Click the "Upload Image" button.
-2. Select an image file (in PNG, JPG, or JPEG format) from your local system using the file dialog.
-3. Enter the criminal's name in the provided text field.
-4. The uploaded image will be displayed on the GUI, and the application will save it in the "Training_images" folder for further processing.
+The "Create Face Entry" functionality enables you to  either upload a picture or capture the face of a criminal from the application. Follow these steps to upload an image:
 
 ### 3. Face Recognition
 
-The "Face Recognition" functionality utilizes the webcam to perform real-time facial recognition and identify known criminals from the uploaded images. Follow these steps to perform face recognition:
+The "Search" functionality utilizes the webcam to perform real-time facial recognition and identify known criminals from the uploaded images. Follow these steps to perform face recognition:
 
-1. Click the "Face Recognition" button.
+1. Click the "Search" button.
 2. The application will activate your webcam and start capturing frames.
 3. Detected faces will be compared with the face encodings of known criminals from the database.
 4. If a match is found, the application will display the criminal's name and draw a rectangle around their face in the live video feed.
+5. The Criminal Information from the database would be fetched
+### 4. Database Entry
+The "Create Database Entry" button opens a GUI form where you can enter the details of a criminal, including their name, contact information, Aadhaar card details, and the crime committed. The entered information is saved in the database for future reference.
+
+
+![image](https://github.com/hope404alive/Crime-Detection/assets/94454699/1b388553-c172-42fb-95e9-7feef1d724b8)
+
 
 ## Contributing
 
