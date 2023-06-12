@@ -1,0 +1,1 @@
+command=lambda:b3databaseentry(),
