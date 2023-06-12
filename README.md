@@ -16,10 +16,9 @@ Criminal Image Recognition is a Python-based application that performs facial re
   - [1. Open Database](#1-open-database)
   - [2. Upload Image](#2-upload-image)
   - [3. Face Recognition](#3-face-recognition)
-  - [4. Database Entry](#4-Database Entry)
+  - [4. Database Entry](#4-database-entry)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Installation
 
@@ -57,23 +56,19 @@ The "Search" functionality utilizes the webcam to perform real-time facial recog
 3. Detected faces will be compared with the face encodings of known criminals from the database.
 4. If a match is found, the application will display the criminal's name and draw a rectangle around their face in the live video feed.
 5. The Criminal Information from the database would be fetched
+
+
 ### 4. Database Entry
 The "Create Database Entry" button opens a GUI form where you can enter the details of a criminal, including their name, contact information, Aadhaar card details, and the crime committed. The entered information is saved in the database for future reference.
 
+![image](https://github.com/hope404alive/Crime-Detection/assets/94454699/4db43182-8534-4496-a754-9b633c43a107)
 
-![image](https://github.com/hope404alive/Crime-Detection/assets/94454699/1b388553-c172-42fb-95e9-7feef1d724b8)
+
 
 
 ## Contributing
 
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-
-## Acknowledgments
-
-This project was built using the following libraries and resources:
-
-- OpenCV: https://opencv.org/
-- face_recognition: https://github.com/ageitgey/face_recognition
 
 
